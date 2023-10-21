@@ -1,0 +1,41 @@
+<title>โปรแกรมคำนวณเผาผลาญแคลอรี่</title>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1>โปรแกรมคำนวณการเผาผลาญพลังงาน</h1>
+    </center>
+    <div class="box">
+        <center>
+            <p class="text">ระบุเพศของคุณ</p>
+            <div class="text">
+                <input id="gender-male" name="sex" type="radio" value="male" />ชาย
+                <input id="gender-female" name="sex" type="radio" value="female" />หญิง<br>
+            </div>
+
+            <h2 class="text">อายุ<input id="age" type="number" /></h2>
+            <h2 class="text">ส่วนสูง<input id="height" type="number" /></h2>
+            <h2 class="text">น้ำหนัก<input id="weight" type="number" /></h2>
+
+
+            <button onclick="calculate()">
+                <h2>คำนวน</h2>
+            </button>
+            <button onclick="Clear()">
+                <h2>ล้างข้อมูล</h2>
+            </button>
+    </div>
+
+    <center class="box2">
+        <h3 class="text">แคลอรี่ต่อวัน</h3><p class="text" id="calculate" ></p><h3 class="text">kcal</h3>
+        
+</body>
+</center>
+
+</center>
+<script src="app.js"></script>
+
+</body>
